@@ -1,0 +1,22 @@
+.fondonavbar{
+    background-color: #343a40;
+}
+
+.logoMenu{
+    width: 25%;
+}
+
+.contenedorLogo{
+    margin-left: 570px;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .logoMenu{
+        width: 70%;
+        padding-top: 20px;
+    }
+    .contenedorLogo{
+        margin-left: 100px;
+    }
+}

@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import LeftTablero from './componentes/leftTablero';
+
+import Navbar from './componentes/navbar';
+import Tablero from './componentes/tablero';
+import Leftablero from './componentes/leftTablero';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Navbar />
+    <div className='UserTablero'>
+    <LeftTablero />
+    <Tablero />
     </div>
+    </>
   );
 }
 

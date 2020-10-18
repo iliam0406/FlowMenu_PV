@@ -1,0 +1,86 @@
+.imagenLogo{
+    width: 70%;
+    padding-bottom: 20px;
+}
+.col{
+    padding: 3px !important;
+    flex-grow: inherit !important;
+    
+}
+
+.uno{
+    border-left: 2px solid #A70000;
+}
+
+.teclado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.num{
+    font-size: 28px !important;
+    width: 50px;
+}
+
+.enter{
+    font-size: 22px !important;
+    width: 106px;
+    height: 56px;
+    background-color: #A70000 !important;
+}
+
+.textinput{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    width: 90% !important;
+    border-color: #A70000 !important;
+}
+
+
+
+/*leftTablero*/
+.dashboardPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 20px;
+    color: #A70000 ;
+    font-weight: 800;
+}
+
+.mensaje{
+    color: rgb(92, 92, 92);
+}
+
+@media (max-width: 500px) {
+
+    .logoMenu{
+        width: 60%;
+    }
+
+    .dashboardPrincipal{
+        background-color: #343a40;
+        padding: 20px 0px;
+    }
+
+    .formulario{
+        width: 100%;
+        padding: 80px 20px 80px 20px
+    }
+    .uno{
+        border-left: 0px solid #A70000;
+    }
+}
