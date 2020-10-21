@@ -11,7 +11,7 @@ import Tablero from '../componentes/tablero';
 function Home() {
   return (
     <>
-        <Navbar />
+        <Navbar/>
         <div className='UserTablero'>
         <LeftTablero />
         <Tablero />

@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './Views/Home';
 import PanelControl from './Views/panelControl'
 import PanelPedidos from './Views/panelPedidos'
+import Navbar from './componentes/navbar'
 
 
 
@@ -13,6 +14,7 @@ function Layout(){
     return(
         <>
         <BrowserRouter>
+        
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/panelcontrol" component={PanelControl} />
